@@ -1,6 +1,8 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 
+var keys = require('./keys');
+
 var app = express();
 var router = express.Router();
 
